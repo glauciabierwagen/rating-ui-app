@@ -7,6 +7,7 @@ import FeedbackItem from "./components/FeedbackItem";
 
 function App() {
   const [feedback, setFeedback] = useState(FeedbackData);
+  console.log(feedback);
 
   return (
     <BrowserRouter>

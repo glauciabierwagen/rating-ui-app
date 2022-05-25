@@ -1,3 +1,4 @@
+{/*Array with objects, it is not exactly a component*/}
 const FeedbackData = [
   {
     id: 1,

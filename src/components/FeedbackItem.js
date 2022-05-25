@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const FeedbackItem = () => {
-  const [rating, setRating] = useState(8);
+  const [rating, setRating] = useState(10);
   const [text, setText] = useState("This is an example of a feedback item");
   return (
     <div className="card">
