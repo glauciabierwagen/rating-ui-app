@@ -28,7 +28,7 @@ function App() {
           element=
           { 
             <> 
-            <FeedbackStats/>
+            <FeedbackStats feedback={feedback}/>
             <FeedbackList 
               feedback={feedback}
               handleDelete={deleteFeedback}
