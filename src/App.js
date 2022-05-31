@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FeedbackData from "./data/FeedbackData";
 import Header from "./components/Header";
 import FeedbackList from "./components/FeedbackList";
+import FeedbackStats from "./components/FeedbackStats";
 
 function App() {
   const [feedback, setFeedback] = useState(FeedbackData);
@@ -24,8 +25,17 @@ function App() {
           <Route 
           exact 
           path="/" 
-          element={<FeedbackList feedback={feedback} handleDelete={deleteFeedback}/>}
-          />
+          element=
+          { 
+            <> 
+            <FeedbackStats/>
+            <FeedbackList 
+              feedback={feedback}
+              handleDelete={deleteFeedback}
+            />          
+          </>
+          }
+        />
         </Routes>
       </div>
     </BrowserRouter>
