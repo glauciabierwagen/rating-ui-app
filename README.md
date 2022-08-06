@@ -1,5 +1,5 @@
 # Rating App
-<b> Course IT Women (Front-End) </b>
+<b> Course IT Women - Front-End </b>
 
 This project is about creating a rating app (React Code Along).
 
